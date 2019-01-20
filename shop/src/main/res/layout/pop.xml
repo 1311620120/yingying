@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+     <Button 
+        android:id="@+id/came"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相机"
+        />
+    <Button 
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相册"
+        />
+    <Button 
+        android:id="@+id/cai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="裁剪"
+        />
+
+</LinearLayout>

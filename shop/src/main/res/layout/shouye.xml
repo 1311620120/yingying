@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <bwie.com.shop.view.CustomTitle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_title"
+            ></bwie.com.shop.view.CustomTitle>
+        <bwie.com.shop.view.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lishi"
+            ></bwie.com.shop.view.CustomView>
+        <com.recker.flybanner.FlyBanner
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="3"
+            android:id="@+id/ban1"
+            ></com.recker.flybanner.FlyBanner>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/rec1"
+            ></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="京东秒杀"
+            android:textColor="#FF9476DF"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/rec2"
+            ></android.support.v7.widget.RecyclerView>
+        <com.recker.flybanner.FlyBanner
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="3"
+            android:id="@+id/ban2"
+            ></com.recker.flybanner.FlyBanner>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
